@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 
 
@@ -7,7 +7,7 @@
 }
   body{
     background-color: var(--primery-color);
-    font-family: canopee;
+    font-family: 'Sedgwick Ave Display', cursive;
     /* font-family: 'Kaushan Script', cursive; */
   }
 
@@ -22,7 +22,6 @@
         font-size: 70px;
         letter-spacing: 5px;
         font-weight: 100;
-        font-family: canopee;
         background-color: #1C1C19;
         color: #C5BEB4;
         line-height: auto;
