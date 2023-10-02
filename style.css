@@ -6,6 +6,8 @@
     --primery-color:#C5BEB4;
 }
   body{
+    max-width: 85%;
+    width: 100%;
     background-color: var(--primery-color);
     font-family: 'Sedgwick Ave Display', cursive;
     /* font-family: 'Kaushan Script', cursive; */
@@ -13,7 +15,7 @@
 
   #main{
     /* background-color: red; */
-    max-width: 400px;
+    /* max-width: 400px; */
     margin: auto;
     padding: 2rem;
     
