@@ -6,18 +6,19 @@
     --primery-color:#C5BEB4;
 }
   body{
-    margin: 0px auto;
-    text-align: center;
-    max-width: 85%;
-    width: 100%;
+    /* margin: 0px auto; */
+    /* text-align: center; */
+    /* max-width: 85%; */
+    /* width: 100%; */
     background-color: var(--primery-color);
     font-family: 'Sedgwick Ave Display', cursive;
     /* font-family: 'Kaushan Script', cursive; */
   }
 
   #main{
+    margin: auto;
     /* background-color: red; */
-    /* max-width: 400px; */
+    max-width: 1700px;
      padding: 2rem;
      
   } 
@@ -30,7 +31,7 @@
         color: #C5BEB4;
         line-height: auto;
         /* width: 96%; */
-        margin-left:  2%;
+        margin-left:  1.5%;
     }
 
     .nav-elements{
@@ -76,9 +77,10 @@ padding: 0rem 0.5rem;
 
 #image-section #left{
 text-align: left;
-font-size: 40px;
-padding-right: 8rem;
+font-size: 45px;
+/* padding-right: 28rem; */
 padding-left:2rem ;
+padding-right: 12rem;
 /* background-color: #1C1C19;
 color: #C5BEB4; */
 }
@@ -92,7 +94,7 @@ padding: 1rem ;
 }
 
 #blocks{
-
+text-align: center;
   letter-spacing: 0.1rem;
   word-spacing: 0.2rem;
 }
