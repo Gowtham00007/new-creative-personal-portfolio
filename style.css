@@ -131,6 +131,7 @@ hr {
 .navigation .link {
     font-size: x-large;
     color: black;
+    margin: 1rem;
 }
 .navigation  .nav-pills{
     text-align: center;
