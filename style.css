@@ -106,6 +106,7 @@ hr {
 }
 .list-item-inline{
     display: inline;
+    padding-inline-start: 0px;
     padding: 0rem 0.3rem;
 }
 
