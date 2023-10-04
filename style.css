@@ -133,8 +133,9 @@ hr {
     color: black;
 }
 .navigation  .nav-pills{
-    text-align: center;
-    margin: 0.2rem 0.5rem;
+    text-align: left;
+    font-size: x-large;
+  
 }
 .navigation .linkactive {
     font-weight: bold;

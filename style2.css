@@ -6,14 +6,12 @@
     --primery-color:#C5BEB4;
 }
   body{
-    /* margin: 0px auto; */
-    /* text-align: center; */
-    /* max-width: 85%; */
-    /* width: 100%; */
-    /* background-color: var(--primery-color); */
-    
+    margin: 0px auto; 
+    text-align: center;
+     max-width: 85%; 
+     width: 100%; 
+    background-color: var(--primery-color);
     font-family: 'Sedgwick Ave Display', cursive; 
-     font-family: 'Kaushan Script', cursive; 
    } 
 
   /* #main{
@@ -22,9 +20,9 @@
     /* max-width: 1700px;
      padding: 2rem;
       */
-  /* }   */ 
+  /* }   
 
-  body{
+  /* body{
     font-size: large;
     letter-spacing: 0.1rem;
     margin: 0px auto;
@@ -32,10 +30,10 @@
     width: 100%;
     /* font-family: Montserrat,
     sans-serif; */
-    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Abril Fatface', cursive;
     font-family: 'Chonburi', cursive;
 
-}
+}  */
 
 
     h1{
