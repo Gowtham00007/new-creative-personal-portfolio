@@ -115,7 +115,7 @@ hr {
 
 .navigation {
     background-color: var(--primery-color);
-    padding: 2rem ;
+    padding: 1rem ;
     /* border-bottom-left-radius: 1rem; */
 
 }
@@ -135,6 +135,7 @@ hr {
 .navigation  .nav-pills{
     text-align: left;
     font-size: x-large;
+    padding-inline-start: 0px;
   
 }
 .navigation .linkactive {
