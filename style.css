@@ -1,23 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 :root{
-   --primery-color:#a3e635;
-   --secondary-color:#6b7280;
-   --gray-color:#e5e7eb;
+   --primery-color:#C5BEB4;
+   --secondary-color:#C5BEB4;
+   --gray-color:#C5BEB4;
 }
 
 body{
+    background-color: #C5BEB4;
+    font-family: 'Sedgwick Ave Display', cursive;
     font-size: large;
     letter-spacing: 0.1rem;
     margin: 0px auto;
     max-width: 85%;
     width: 100%;
-    /* font-family: Montserrat,
-    sans-serif; */
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Chonburi', cursive;
 
 }
 
@@ -46,9 +41,9 @@ hr {
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
-.primery-link{
+/* .primery-link{
     margin: 1rem auto;
     max-width: 140px;
     border-radius: 0.5rem;
@@ -65,7 +60,42 @@ hr {
     border-radius: 2rem;
     border: 2px solid var(--primery-color);
     
-}
+} */
+
+
+
+.primery-link{
+    text-decoration: none;
+    background-color:#B63B12; 
+    color: #C5BEB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .secondary-color2{
+    text-decoration: none;
+    background-color:#B63B12;
+    color: #C5BEB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .secondary-color{
+    text-decoration: none;
+    background-color: #014737;
+    color: #C5BEB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+
+
 
 /* BEM naming conventions for css */
 
@@ -84,50 +114,57 @@ hr {
 
 .navigation {
     background-color: var(--primery-color);
-    padding: 1rem ;
-    border-bottom-left-radius: 1rem;
+    padding: 2rem ;
+    /* border-bottom-left-radius: 1rem; */
 
 }
 
-.nav-brand{
+/* .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
     color: black;
 
 
-}
+} */
 
 .navigation .link {
+    font-size: x-large;
     color: black;
 }
 .navigation  .nav-pills{
-    text-align: right;
-    margin: 0.6rem 1rem;
+    text-align: center;
+    margin: 0.2rem 0.5rem;
 }
 .navigation .linkactive {
     font-weight: bold;
+    background-color: black;
+    color: #C5BEB4;
 }
 /* hedder  */
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 .hero .hero-img {
-    max-width: 80%;
-    max-width: 350px;
+    max-width: 50%;
+    max-width: 150px;
     margin: auto;
     display: block;
+    padding: 1rem;  
+    border-radius: 10rem;
+    border: 5px solid black;
 }
 .hero .hero-heading{
     text-align:center ;
     padding-top: 1rem;
-    color: var(--secondary-color);
+    color: var(--primery-color);
+    background-color: black;
 }
 
 /* section  */
 .section{
-    margin: 2rem 0;
-    padding: 2rem;
+    margin: 1rem 0;
+    padding: 1rem;
     border-radius: 1rem;
      text-align: center; 
 }
@@ -140,22 +177,27 @@ hr {
     border-radius: 1rem;
     background-color: var(--gray-color);
 }
-
-/* footer  */
+/* footer   */
 .footer{
-    background-color: var(--primery-color);
+    /* background-color: var(--primery-color);
     padding: 2rem 1rem;
     text-align: center;
     color: black;
-    border-top-right-radius: 1rem;
-}
+    border-top-right-radius: 1rem; */
+    text-align:center ;
+    padding-top: 1rem;
+    color: var(--primery-color);
+    background-color: black;
+    padding: 1rem;
+} 
 .footer .link {
-    color: black;
+    font-size: x-large;
+    padding: 1rem;
+    color:var(--primery-color);
  }
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
+ #footer-hedder {
+    font-size: 50px;
+} 
 .footer ul{
     padding-inline-start: 0px;
 }

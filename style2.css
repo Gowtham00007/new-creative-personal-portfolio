@@ -5,15 +5,16 @@
 :root{
     --primery-color:#C5BEB4;
 }
-  /* body{
+  body{
     /* margin: 0px auto; */
     /* text-align: center; */
     /* max-width: 85%; */
     /* width: 100%; */
-    /* background-color: var(--primery-color);
-    font-family: 'Sedgwick Ave Display', cursive; */
-    /* font-family: 'Kaushan Script', cursive; */
-  /* } */
+    /* background-color: var(--primery-color); */
+    
+    font-family: 'Sedgwick Ave Display', cursive; 
+     font-family: 'Kaushan Script', cursive; 
+   } 
 
   /* #main{
     margin: auto;
