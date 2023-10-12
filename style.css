@@ -172,12 +172,12 @@ hr {
     padding: 1rem;
 } 
 .footer .link {
-    font-size: x-large;
+    font-size: large;
     padding: 0.5rem;
     color:var(--primery-color);
  }
  #footer-hedder {
-    font-size:35px;
+    font-size:40px;
 } 
 .footer ul{
     padding-inline-start: 0px;
