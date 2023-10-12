@@ -95,13 +95,13 @@ hr {
 
 
 .navigation .link {
-    font-size: x-large;
+    font-size: large;
     color: var(--secandary-color);
-    margin: 0.5rem;
+    margin: 0.2rem;
 }
 .navigation  .nav-pills{
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     padding-inline-start: 0px;
   
 }
@@ -127,7 +127,7 @@ hr {
 .hero .hero-heading{
   margin-top: 0rem;
   margin-bottom: 0.5rem;
-  font-size: 70px;
+  font-size: 65px;
   letter-spacing: 5px;
   font-weight: 100;
   background-color:var(--secandary-color);
